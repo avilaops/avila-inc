@@ -47,8 +47,8 @@ export default function AboutPage() {
             transition={{ delay: 0.3 }}
             className="text-xl text-light/80 text-center max-w-4xl mx-auto mb-16"
           >
-            A Ávila Inc é uma holding de tecnologia que identifica, desenvolve e escala 
-            empresas disruptivas para transformar indústrias através da inovação.
+            A Ávila Inc é uma holding de tecnologia focada em DevOps, Cloud Computing e Automação Empresarial.
+            Desenvolvemos soluções que transformam operações complexas em processos eficientes e escaláveis.
           </motion.p>
         </div>
       </section>
@@ -62,42 +62,42 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-4xl font-poppins font-bold text-center mb-16 text-secondary"
           >
-            🎯 Nossa Metodologia
+            🚀 Nossa Abordagem
           </motion.h2>
 
           <div className="grid md:grid-cols-3 gap-12">
             {[
               {
                 step: "01",
-                title: "Identificação",
-                description: "Analisamos mercados emergentes e tecnologias disruptivas com potencial de transformação industrial.",
+                title: "Consultoria Especializada",
+                description: "Análise profunda de infraestrutura e identificação de oportunidades de otimização.",
                 details: [
-                  "Pesquisa de mercado profunda",
-                  "Análise de tendências tecnológicas",
-                  "Identificação de gaps no mercado",
-                  "Avaliação de potencial disruptivo"
+                  "Auditoria de infraestrutura atual",
+                  "Identificação de gargalos operacionais",
+                  "Roadmap de modernização",
+                  "Estimativa de ROI e benefits"
                 ]
               },
               {
                 step: "02", 
-                title: "Desenvolvimento",
-                description: "Criamos ou adquirimos empresas com foco em inovação e crescimento sustentável.",
+                title: "Implementação DevOps",
+                description: "Desenvolvimento e implementação de soluções DevOps personalizadas para cada cliente.",
                 details: [
-                  "Due diligence técnica e comercial",
-                  "Estruturação societária otimizada",
-                  "Formação de equipes de alto desempenho", 
-                  "Definição de roadmap estratégico"
+                  "CI/CD pipelines automatizados",
+                  "Infrastructure as Code (IaC)",
+                  "Containerização e orquestração", 
+                  "Monitoramento e observabilidade"
                 ]
               },
               {
                 step: "03",
-                title: "Escala",
-                description: "Investimos recursos e expertise para acelerar o crescimento das empresas do portfólio.",
+                title: "Operação e Suporte",
+                description: "Gestão contínua da infraestrutura com monitoramento 24/7 e otimização constante.",
                 details: [
-                  "Aporte de capital estratégico",
-                  "Mentoria executiva especializada",
-                  "Expansão de rede de contatos",
-                  "Otimização de processos operacionais"
+                  "Monitoramento proativo 24/7",
+                  "Escalabilidade automática",
+                  "Backup e disaster recovery",
+                  "Suporte técnico especializado"
                 ]
               }
             ].map((item, index) => (

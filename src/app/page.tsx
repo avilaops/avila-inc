@@ -7,38 +7,38 @@ export default function Home() {
   const [currentMetric, setCurrentMetric] = useState(0);
   
   const metrics = [
-    { number: "50+", label: "Projetos", icon: "🚀" },
-    { number: "R$ 100M+", label: "Valor", icon: "💎" },
-    { number: "15+", label: "Prêmios", icon: "🏆" },
-    { number: "3", label: "Países", icon: "🌍" },
+    { number: "25+", label: "Projetos", icon: "🚀" },
+    { number: "R$ 50M+", label: "Valor Gerido", icon: "💎" },
+    { number: "5+", label: "Anos", icon: "⏱️" },
+    { number: "2", label: "Países", icon: "🌍" },
   ];
 
   const portfolio = [
     { 
-      name: "ArcSat", 
-      type: "CRM Platform", 
-      description: "Sistema de gestão empresarial com IA",
+      name: "AvilaOps.com", 
+      type: "DevOps & Cloud Solutions", 
+      description: "Plataforma completa de DevOps e automação cloud",
       status: "Live"
     },
     { 
-      name: "Ávila Ops", 
-      type: "DevOps Solutions", 
-      description: "Infraestrutura e automação cloud",
+      name: "Ávila Infrastructure", 
+      type: "Cloud Management", 
+      description: "Gestão e otimização de infraestrutura Azure/AWS",
       status: "Live"
     },
     { 
-      name: "Project Alpha", 
-      type: "Stealth Mode", 
-      description: "Next-gen AI infrastructure",
+      name: "Ávila AI Platform", 
+      type: "AI Solutions", 
+      description: "Soluções de IA para automação empresarial",
       status: "Development"
     },
   ];
 
   const areas = [
-    { icon: "🤖", name: "Inteligência Artificial", desc: "Machine Learning & Deep Learning" },
-    { icon: "☁️", name: "Cloud Computing", desc: "AWS, Azure & Google Cloud" },
-    { icon: "🔒", name: "Cybersecurity", desc: "Zero Trust & Advanced Threat Protection" },
-    { icon: "🏭", name: "Industry 4.0", desc: "IoT & Industrial Automation" },
+    { icon: "☁️", name: "DevOps & Cloud", desc: "Azure, AWS & Infrastructure Automation" },
+    { icon: "🤖", name: "Inteligência Artificial", desc: "AI Solutions & Process Automation" },
+    { icon: "🔒", name: "Cybersecurity", desc: "Security Operations & Compliance" },
+    { icon: "📊", name: "Business Intelligence", desc: "Data Analytics & Insights" },
   ];
 
   useEffect(() => {
@@ -123,7 +123,7 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-xl md:text-2xl text-light/80 mb-12 max-w-4xl mx-auto leading-relaxed"
           >
-            Holding de tecnologia focada em inovação disruptiva e transformação digital
+            Holding de tecnologia especializada em DevOps, Cloud Computing e Automação Empresarial
           </motion.p>
 
           <motion.div 
@@ -137,7 +137,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Conheça Portfólio
+              Ver Empresas do Grupo
             </motion.button>
             
             <motion.button
@@ -145,7 +145,7 @@ export default function Home() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Fale com Investidores
+              Contato Comercial
             </motion.button>
           </motion.div>
         </div>
